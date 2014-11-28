@@ -15,7 +15,7 @@ public class Singleton {
        
     }
     
-    public void operacaoDemorada(){
+    public void funcaoQuePossuiUmNomeDuvidoso(){
        
     }
 
