@@ -1,14 +1,26 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package com.br.maven.padroes;
+
+
 
 /**
  *
  * @author David
  */
 public class Singleton {
+    
+  static final Singleton instance = new Singleton();
+
+    private Singleton() {
+       
+    }
+    
+    public void operacaoDemorada(){
+       
+    }
+
+    public static Singleton getInstance() {
+        return instance;
+    }
     
 }
