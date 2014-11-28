@@ -12,10 +12,12 @@ public class Singleton {
   static final Singleton instance = new Singleton();
 
     private Singleton() {
-       
+       funcaoQueNaoFazNada();
     }
     
-    public void funcaoQuePossuiUmNomeDuvidoso(){
+    public void funcaoQueNaoFazNada(){
+            
+        System.out.println("Aloha");
        
     }
 
